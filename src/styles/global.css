@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Absans";
+  src: url("../assets/fonts/absans-regular.otf");
+}
+
+@font-face {
+  font-family: "Manuscribe";
+  src: url("../assets/fonts/ManuscribeFree-Italic.otf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to left, #020617, #020617, #0f172a);
+  color: white;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1,
+h2,
+h3 {
+  font-family: "Neuton", serif;
+}
+
+#hero {
+  scroll-margin-top: 200px;
+}

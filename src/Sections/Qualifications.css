@@ -1,0 +1,113 @@
+.qual {
+  width: 100%;
+  padding: clamp(60px, 10vw, 100px) 20px;
+  background: transparent;
+}
+
+.qual-title {
+  font-size: clamp(32px, 5vw, 48px);
+  text-align: center;
+  margin-bottom: clamp(40px, 8vw, 80px);
+  font-weight: 700;
+}
+
+.qual-container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(30px, 5vw, 60px);
+}
+
+.qual-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.qual-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: clamp(20px, 2.5vw, 26px);
+  margin-bottom: 35px;
+  color: #38bdf8;
+}
+
+.qual-icon {
+  font-size: 1.2em;
+}
+
+.qual-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.qual-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 4px solid #38bdf8;
+  border-radius: 0 12px 12px 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.edu-card {
+  padding: clamp(25px, 4vh, 40px) 25px;
+}
+
+.cert-card {
+  padding: 22px 25px;
+}
+
+.qual-card:hover {
+  background: rgba(56, 189, 248, 0.08);
+  transform: translateX(10px);
+  border-left: 4px solid #7dd3fc;
+}
+
+.qual-content h4 {
+  font-size: clamp(16px, 1.8vw, 20px);
+  margin-bottom: 8px;
+  color: #f8fafc;
+}
+
+.qual-org {
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 1.4;
+}
+
+.qual-date {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/*? RESPONSIVENESS */
+@media (max-width: 900px) {
+  .qual-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .qual-subtitle {
+    justify-content: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+  }
+
+  .edu-card {
+    padding: 22px 25px;
+  }
+
+  .qual-card {
+    text-align: center;
+    border-left: 0;
+    border-bottom: 3px solid #38bdf8;
+    border-radius: 12px;
+  }
+}

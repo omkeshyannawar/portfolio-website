@@ -1,0 +1,47 @@
+.footer {
+  width: 100%;
+
+  padding: clamp(40px, 8vw, 80px) 20px clamp(20px, 4vw, 40px);
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: #020617;
+  overflow: hidden;
+}
+
+.footer-text {
+  font-size: clamp(24px, 5vw, 38px);
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #38bdf8;
+
+  opacity: 0;
+  animation: fadeSlide 1.2s ease forwards;
+}
+
+.footer-copy {
+  font-size: clamp(12px, 1.5vw, 14px);
+  opacity: 0.6;
+  letter-spacing: 0.5px;
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding-top: 40px;
+  }
+
+  .footer-text {
+    line-height: 1.4;
+  }
+}
