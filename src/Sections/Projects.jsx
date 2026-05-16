@@ -94,8 +94,8 @@ const Projects = () => {
         title="Weather Forecasting App"
         projecttitle="Weather Forecasting App"
         description="Built a Weather Dashboard using JavaScript and OpenWeather API to display real-time weather data for any city with dynamic UI updates and error handling."
-        livelink="www.youtube.com"
-        githublink="www.github.com"
+        livelink="https://omkeshyannawar.github.io/weather-dashboard/"
+        githublink="https://github.com/omkeshyannawar/weather-dashboard.git"
       />
 
       <ProjectCard 
