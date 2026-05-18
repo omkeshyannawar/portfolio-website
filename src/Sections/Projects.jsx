@@ -77,8 +77,8 @@ const Projects = () => {
         title="Gemini Clone"
         projecttitle="Gemini Clone"
         description="A responsive Gemini-style AI chatbot built with React, integrating generative AI APIs to deliver real-time conversational responses."
-        livelink="https://gemini-clone-pied-one.vercel.app/"
-        githublink="https://github.com/omkeshyannawar/gemini-clone.git"
+        liveLink="https://gemini-clone-pied-one.vercel.app/"
+        githubLink="https://github.com/omkeshyannawar/gemini-clone.git"
       />
       
       <ProjectCard 
@@ -86,16 +86,16 @@ const Projects = () => {
         title="Weather Forecasting App"
         projecttitle="Weather Forecasting App"
         description="Built a Weather Dashboard using JavaScript and OpenWeather API to display real-time weather data for any city with dynamic UI updates and error handling."
-        livelink="https://omkeshyannawar.github.io/weather-dashboard/"
-        githublink="https://github.com/omkeshyannawar/weather-dashboard.git"
+        liveLink="https://omkeshyannawar.github.io/weather-dashboard/"
+        githubLink="https://github.com/omkeshyannawar/weather-dashboard.git"
       />
       <ProjectCard 
         image={macosui}
         title="Productivity Dashboard"
         projecttitle="Productivity Dashboard"
         description="A modern productivity dashboard featuring To-Do List, task management, daily planning, Pomodoro timer, motivational quotes API integration, and goal tracking."
-        livelink="www.youtube.com"
-        githublink="https://github.com/omkeshyannawar/Productivity-Dashboard.git"
+        liveLink="www.youtube.com"
+        githubLink="https://github.com/omkeshyannawar/Productivity-Dashboard.git"
       />
 
 
@@ -104,8 +104,8 @@ const Projects = () => {
         title="Netflix Clone"
         projecttitle="Netflix Clone"
         description="Built a Netflix Clone using React and API to display movies data with dynamic UI ."
-        livelink="www.youtube.com"
-        githublink="www.github.com"
+        liveLink="www.youtube.com"
+        githubLink="www.github.com"
       />
 
       <ProjectCard 
@@ -113,8 +113,8 @@ const Projects = () => {
         title="Swiggy Clone"
         projecttitle="Swiggy Clone"
         description="Built a Swiggy Clone using React and API to display movies data with dynamic UI ."
-        livelink="www.youtube.com"
-        githublink="www.github.com"
+        liveLink="www.youtube.com"
+        githubLink="www.github.com"
       />
 
        <ProjectCard 
@@ -122,8 +122,8 @@ const Projects = () => {
         title="TO DO App"
         projecttitle="TO DO App"
         description="Built a TO-DO App using React and API to display movies data with dynamic UI ."
-        livelink="www.youtube.com"
-        githublink="www.github.com"
+        liveLink="www.youtube.com"
+        githubLink="www.github.com"
       />
  </div>
 
