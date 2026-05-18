@@ -1,6 +1,6 @@
 .projects {
   width: 100%;
-
+  z-index: 20;
   padding: clamp(20px, 5vw, 60px) clamp(15px, 5vw, 60px);
 }
 

@@ -75,6 +75,7 @@
   width: 50%;
   z-index: 1;
   overflow: hidden;
+  pointer-events: none;
 
   -webkit-mask-image:
     linear-gradient(to left, black 75%, transparent 100%),
