@@ -31,7 +31,7 @@ function ProjectCard({ image, title, description, liveLink, githubLink }){
           target="_blank"
           rel="noreferrer"
         >
-          In progress
+          Live
         </a>
 
         <a
@@ -40,7 +40,7 @@ function ProjectCard({ image, title, description, liveLink, githubLink }){
           target="_blank"
           rel="noreferrer"
         >
-          Coming soon 
+          GitHub 
         </a>
 
       </div>
@@ -77,18 +77,10 @@ const Projects = () => {
         title="Gemini Clone"
         projecttitle="Gemini Clone"
         description="A responsive Gemini-style AI chatbot built with React, integrating generative AI APIs to deliver real-time conversational responses."
-        livelink="www.youtube.com"
-        githublink="www.github.com"
+        livelink="https://gemini-clone-pied-one.vercel.app/"
+        githublink="https://github.com/omkeshyannawar/gemini-clone.git"
       />
-      <ProjectCard 
-        image={macosui}
-        title="E-Comerce Website"
-        projecttitle="E-Comerce Website"
-        description="Modern e-commerce web application developed with React, implementing product browsing, cart management, and a responsive user interface."
-        livelink="www.youtube.com"
-        githublink="www.github.com"
-      />
-
+      
       <ProjectCard 
         image={macosui}
         title="Weather Forecasting App"
@@ -97,6 +89,15 @@ const Projects = () => {
         livelink="https://omkeshyannawar.github.io/weather-dashboard/"
         githublink="https://github.com/omkeshyannawar/weather-dashboard.git"
       />
+      <ProjectCard 
+        image={macosui}
+        title="Productivity Dashboard"
+        projecttitle="Productivity Dashboard"
+        description="A modern productivity dashboard featuring To-Do List, task management, daily planning, Pomodoro timer, motivational quotes API integration, and goal tracking."
+        livelink="www.youtube.com"
+        githublink="https://github.com/omkeshyannawar/Productivity-Dashboard.git"
+      />
+
 
       <ProjectCard 
         image={macosui}
