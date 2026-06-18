@@ -1,7 +1,7 @@
 #  Omkesh Yannawar Portfolio
 
 This is my personal portfolio website built using React and Vite.  
-It showcases my projects, skills, and contact information.
+It showcases my Projects, Skills, Experience, Eductaion, Certifications and contact information.
 
 # Tech Stack
 - React
