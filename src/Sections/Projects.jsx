@@ -1,7 +1,13 @@
 import React from 'react'
 import './Projects.css'
-import gemini from '../assets/images/gemini.jpg'
+
 import macosui from '../assets/images/macosui.png'
+import saarthi from '../assets/images/saarthi.png'
+import thread from '../assets/images/Thread.png'
+import Gemini from '../assets/images/gemini.png'
+import weather from '../assets/images/weather.png'
+import todo from '../assets/images/todo.png'
+import swiggy from '../assets/images/swiggy.png'
 
 
 
@@ -71,9 +77,26 @@ const Projects = () => {
          
          <div className="projects-grid">
 
-    
       <ProjectCard 
-        image={gemini}
+        image={saarthi}
+        title="Saarthi: AI Powered Dashboard"
+        projecttitle="Saarthi: AI Powered Dashboard"
+        description="Saarthi is an AI-powered productivity and wellness companion that helps users stay focused, organized, and mentally balanced through productivity tools, mindfulness features, and an AI support companion"
+        liveLink="https://saarthicompanion.netlify.app/"
+        githubLink="https://github.com/omkeshyannawar/Saarthi.git"
+      />
+
+      <ProjectCard 
+        image={thread}
+        title="Thread:E-Commerce Site"
+        projecttitle="Thread:E-Commerce Site"
+        description="A modern fashion e-commerce platform built with React and Vite, inspired by contemporary fashion brand websites. THREAD focuses on delivering a clean, responsive, and premium shopping experience with elegant UI design and intuitive navigation"
+        liveLink="https://thread-ecommerce-omkesh.netlify.app/"
+        githubLink="https://github.com/omkeshyannawar/Thread-E_Commerce-site.git"
+      />
+
+      <ProjectCard 
+        image={Gemini}
         title="Gemini Clone"
         projecttitle="Gemini Clone"
         description="A responsive Gemini-style AI chatbot built with React, integrating generative AI APIs to deliver real-time conversational responses."
@@ -82,48 +105,35 @@ const Projects = () => {
       />
       
       <ProjectCard 
-        image={macosui}
+        image={weather}
         title="Weather Forecasting App"
         projecttitle="Weather Forecasting App"
-        description="Built a Weather Dashboard using JavaScript and OpenWeather API to display real-time weather data for any city with dynamic UI updates and error handling."
-        liveLink="https://omkeshyannawar.github.io/weather-dashboard/"
-        githubLink="https://github.com/omkeshyannawar/weather-dashboard.git"
+        description="
+A responsive React Weather App that fetches real-time weather data using the OpenWeather API, featuring loading states, error handling, and a modern user interface."
+        liveLink="https://miniprojectt-weather-app.netlify.app/"
+        githubLink="https://github.com/omkeshyannawar/React-Weather-App.git"
       />
-      <ProjectCard 
-        image={macosui}
-        title="Productivity Dashboard"
-        projecttitle="Productivity Dashboard"
-        description="A modern productivity dashboard featuring To-Do List, task management, daily planning, Pomodoro timer, motivational quotes API integration, and goal tracking."
-        liveLink="www.youtube.com"
-        githubLink="https://github.com/omkeshyannawar/Productivity-Dashboard.git"
-      />
+      
 
 
-      <ProjectCard 
-        image={macosui}
-        title="Netflix Clone"
-        projecttitle="Netflix Clone"
-        description="Built a Netflix Clone using React and API to display movies data with dynamic UI ."
-        liveLink="www.youtube.com"
-        githubLink="www.github.com"
-      />
+      
 
       <ProjectCard 
-        image={macosui}
+        image={swiggy}
         title="Swiggy Clone"
         projecttitle="Swiggy Clone"
-        description="Built a Swiggy Clone using React and API to display movies data with dynamic UI ."
-        liveLink="www.youtube.com"
-        githubLink="www.github.com"
+        description="Due to some technical error the Swiggy clone repo is private and soon it will be public once fixed, sorry for the inconvenience"
+        liveLink="https://github.com/omkeshyannawar"
+        githubLink="https://github.com/omkeshyannawar"
       />
 
        <ProjectCard 
-        image={macosui}
+        image={todo}
         title="TO DO App"
         projecttitle="TO DO App"
-        description="Built a TO-DO App using React and API to display movies data with dynamic UI ."
-        liveLink="www.youtube.com"
-        githubLink="www.github.com"
+        description="A modern React Todo App with glassmorphism UI, local storage persistence, and responsive design."
+        liveLink="https://github.com/omkeshyannawar/React-To-Do-App.git"
+        githubLink="https://github.com/omkeshyannawar/React-To-Do-App.git"
       />
  </div>
 

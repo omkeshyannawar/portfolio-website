@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import "./Hero.css";
 import profile from "../assets/images/photo.png";
 
 function Hero() {
+  const resumeLinkRef = useRef(null);
+
+  useEffect(() => {
+    // Dynamically set the correct resume path
+    if (resumeLinkRef.current) {
+      const resumePath = `${import.meta.env.BASE_URL}resume.pdf`;
+      resumeLinkRef.current.href = resumePath;
+    }
+  }, []);
+
   return (
     <section className="hero" id='hero'>
       <div className="hero-text">
@@ -12,7 +22,8 @@ function Hero() {
         
         
         <a 
-          href="/resume.pdf" 
+          ref={resumeLinkRef}
+          href="" 
           download="Omkesh_Yannawar_Resume.pdf" 
           className="resume-link"
         >
